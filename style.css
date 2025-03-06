@@ -5,10 +5,10 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-}
+    }
 
 body {
-    background: white;
+    background: #f9f9f9;
     color: #675f64;
     padding: 0;
 }
@@ -87,12 +87,67 @@ background: #fff5e6;
     color: #ff8c00;
 }
 
-/* Destinations */
-.destinations {
-    text-align: center;
-    padding: 40px 80px;
+/* service section */
+
+.Services {
+    padding: 60px 20px;
+    background-color: white;
 }
 
-.destinations h2 {
-    font-size: 30px;
+.Category {
+    font-size: 20px;
+    display: block;
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    text-align: center;
 }
+
+h2 {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #181b47;
+    margin-bottom: 40px;
+}
+/* service container */
+.service-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Individual service box */
+.Services {
+    background: white;
+    padding: 2opx;
+    width: 100px;
+    border-radius: 20px;
+    }
+
+    .service-icon {
+        width: 60px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+ 
+    h3 {
+        font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+    }
+
+    p {
+        font-size: 18px;
+    color: #666;
+    }
